@@ -1,0 +1,195 @@
+/* General Reset & Background */
+.emi-page-wrapper {
+  min-height: 100vh;
+  background-color: #f4f7fa;
+  background-image: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0%, rgba(233, 226, 226, 0.28) 90%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', -apple-system, sans-serif;
+  padding: 20px;
+}
+
+/* Main Card Container */
+.emi-main-container {
+  background: white;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+}
+
+/* Header Section */
+.emi-header-section {
+  text-align: center;
+  padding: 60px 40px 40px;
+  background: linear-gradient(to bottom, #fcfdfe, #ffffff);
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.emi-logo-badge {
+  background-color: #0070f3;
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+
+.emi-main-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
+.emi-main-description {
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+/* Cards Grid */
+.emi-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 40px;
+}
+
+.emi-action-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 32px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.emi-action-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.emi-icon-box {
+  margin-bottom: 20px;
+}
+
+.blue-text {
+  color: #0061e0;
+}
+
+.emi-card-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+
+.emi-card-text {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  min-height: 66px;
+}
+
+/* Buttons */
+.emi-btn {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  transition: opacity 0.2s;
+}
+
+.btn-primary {
+  background-color: #0070f3;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #3e5f9a;
+  color: white;
+}
+
+.emi-btn:hover {
+  opacity: 0.9;
+}
+
+/* Agent Access Note */
+.emi-access-footer {
+  background-color: #f1f5f9;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #475569;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Global Footer */
+.emi-global-footer {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 13px;
+  color: #64748b;
+  border-top: 1px solid #e2e8f0;
+}
+
+.footer-brand {
+  font-weight: 800;
+  color: #0047ab;
+  font-size: 18px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #64748b;
+}
+
+.footer-links a:hover {
+  color: #0070f3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .emi-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .emi-main-title {
+    font-size: 32px;
+  }
+  .emi-global-footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,37 @@
+.milkdata-page {
+  padding: 20px;
+}
+
+.milkdata-header {
+  margin-bottom: 20px;
+}
+
+.milkdata-controls input {
+  width: 100%;
+  max-width: 360px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.milkdata-summary {
+  margin-top: 20px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.milkdata-button {
+  margin-top: 16px;
+  padding: 10px 18px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.milkdata-button:hover {
+  background: #145ea8;
+}

@@ -1,0 +1,50 @@
+.billing-container {
+  padding: 16px;
+}
+
+.billing-title {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.billing-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.billing-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.billing-label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.billing-value {
+  margin-top: 8px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.billing-total {
+  margin-top: 20px;
+  padding: 12px;
+  background: #f7f7f7;
+  border-radius: 8px;
+}
+
+.billing-total .total-label {
+  font-weight: 600;
+}
+
+.milkman-info {
+  margin-top: 18px;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
